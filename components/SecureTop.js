@@ -17,15 +17,16 @@ const SecureTop = () => {
           </div>
         </div>
         <div className="top-button-flex">
-          <div className="search">
+          <div></div>
+          {/* <div className="search">
             <div className="icon-wrap">
               <span class="material-symbols-outlined icon">search</span>
             </div>
             <input type="search" placeholder="Search music..." />
-          </div>
+          </div> */}
           <div className="flex gap-10">
             <button className="btn btn-sm btn-danger">
-              <i class="fas fa-power-off" aria-hidden="true"></i> Logout
+              <i class="fas fa-power-off" aria-hidden="true"></i>
             </button>
           </div>
         </div>

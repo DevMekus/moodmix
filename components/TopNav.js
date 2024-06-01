@@ -17,13 +17,13 @@ const TopNav = () => {
             </h5>
           </div>
         </div>
-        <div className="top-button-flex">
-          <div className="search">
+        <div className="top-button-flex flex-end">
+          {/* <div className="search">
             <div className="icon-wrap">
               <span class="material-symbols-outlined icon">search</span>
             </div>
             <input type="search" placeholder="Search music..." />
-          </div>
+          </div> */}
           <div className="flex gap-10">
             <Link
               href="/Oauth/signup"

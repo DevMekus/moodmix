@@ -53,11 +53,10 @@ const page = () => {
             </div>
             <p className="text-center color-grey">
               Already have an account with us?
-              <br />
-              <Link className="no-decoration" href="/Oauth/login">
-                <p className="color-green">Login account</p>
-              </Link>
             </p>
+            <Link className="no-decoration text-center" href="/Oauth/login">
+              <p className="color-green">Login account</p>
+            </Link>
           </form>
         </div>
       </div>

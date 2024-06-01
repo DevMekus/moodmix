@@ -8,14 +8,7 @@ const Page = () => {
     <>
       <div className="home-page-flex">
         <div className="content-list padding-20">
-          <h4 className="bold">What’s New</h4>
-          <div className="album-display">
-            {musicData.map((music) => (
-              <div key={music.id}>
-                <AlbumCard data={music} />
-              </div>
-            ))}
-          </div>
+          <h4 className="bold">Alert Management</h4>
         </div>
         <div className="right-panels"></div>
       </div>

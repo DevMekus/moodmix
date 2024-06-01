@@ -1,0 +1,53 @@
+.account-data .card .card-body p{
+    font-size: 16px;
+}
+
+.account-data-flex{
+    width: 300px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.playlistFlex{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.song-count{
+    cursor: pointer;
+}
+
+.song-count:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.account-data{ 
+    width: 100%;
+    position: relative;
+}
+
+.profile-photo{
+    width: 150px;
+    height: 150px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexItem .icon{
+    margin-right: 10px;
+    font-size: 16px;  
+}
